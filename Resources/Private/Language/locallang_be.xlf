@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:allmailstome/Resources/Private/Language/locallang_be.xlf" date="2024-10-11T00:00:00Z" product-name="allmailstome">
+		<header/>
+		<body>
+			<trans-unit id="description" resname="description">
+				<source>Send me all emails that I generate, e.g. by filling out forms in the frontend.</source>
+			</trans-unit>
+			<trans-unit id="state.enabled" resname="state.enabled">
+				<source>Enabled</source>
+			</trans-unit>
+			<trans-unit id="state.disabled" resname="state.disabled">
+				<source>Disabled</source>
+			</trans-unit>
+			<trans-unit id="notification.success" resname="notification.success">
+				<source>Mails will be sent to %s</source>
+			</trans-unit>
+			<trans-unit id="notification.error.missingMailAddress" resname="notification.error.missingMailAddress">
+				<source>You have no mail address</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  Lemming\AllMailsToMe\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+  Lemming\AllMailsToMe\EventListener\OverwriteEnvelopeEventListener:
+    tags:
+      -
+        name: event.listener
+        identifier: lemming/all-mails-to-me/overwrite-recipient-event-listener
+        event: TYPO3\CMS\Core\Mail\Event\BeforeMailerSentMessageEvent
